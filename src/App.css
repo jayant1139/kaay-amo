@@ -1,3 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration: none;
+}
+ul{
+  list-style: none;
+}
 .dropdown-toggle::after{
   color: #E1701A !important;
   /* margin-top: 0.1rem !important; */
@@ -71,3 +82,98 @@ color: #fff;
   background-size: cover;
   border:1px solid green;
 }
+
+/* Footer CSS  */
+
+.main-footer{
+  margin-top: 6rem;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color:#FBD148;
+ 
+    color:#263238;
+  }
+  .main-footer img{
+    width: 20rem;
+  }
+  .main-footer .footer-top{
+    background-color: #E49B31;
+   /* background-color: greenyellow; */
+   width: 100%;
+   /* margin:2.5rem auto; */
+  padding: 1rem;
+    
+  }
+  .main-footer .footer-bottom{
+    margin: 3rem;
+    /* border:1px solid tomato; */
+  }
+  .subscribe-kaayamo{
+    
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding: 2rem 0;
+    align-items: center;
+    border-radius: 0.6rem;
+  }
+  .subscribe-kaayamo input{
+    height: 3rem;
+    border: none;
+    background-color: transparent;
+    margin-right: 6rem;
+     text-align: center;
+     font-size: 0.8rem;
+  }
+  .subscribe-kaayamo ::placeholder{
+    color: #CBFFDA;
+  }
+  .main-footer .footer-top .subscribe-kaayamo .subscribe-item h6{
+    margin: 0 0.5rem;
+    color: #fff ;
+    font-weight: 600;
+    font-size: 1.2rem;
+    font-family: 'Nunito', sans-serif;
+  }
+  .subscribe-kaayamo .subscribe-bg{
+    background-color: transparent;
+    border: 0.1rem solid #CBFFDA;
+    border-radius: 2rem;
+  
+  }
+ 
+  .btn-subscribe{
+    border: none;
+    padding:1rem;
+    margin-right:0.02rem;
+    margin-left:6rem;
+    font-size: 0.8rem;
+    border-radius:1.5rem;
+    background-color: #CBFFDA;
+  color: #030303;
+  font-weight: 600;
+  }
+  .btn-subscribe:hover{
+    background-color:#CBFFDAc9;
+  }
+  footer a, footer a:hover{
+    color:#030303;
+  }
+  .line_width{
+    height:0.05rem;
+    width: 90vw;
+    background-color: #ffff;
+    opacity: 0.5;
+    margin: auto;
+  }
+  .social-links{
+    /* background-color: #00FF90; */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin:1rem;
+    margin-right: 2rem;
+  }
