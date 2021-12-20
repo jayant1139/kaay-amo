@@ -66,6 +66,7 @@ const sizeStyle={
          </div>
          <div className="line_width"></div>
          <div className="social-links">
+             <p className='social-link-p'>Contact with us</p>
              <a href="https://www.linkedin.com/in/jayant-singh-475643156/" target="_blank"><TiSocialLinkedinCircular style={sizeStyle}/></a>
              <a href="https://www.facebook.com/profile.php?id=100011492779049" target="_blank"><TiSocialFacebookCircular style={sizeStyle}/></a>
              <a href="/" target="_blank"><TiSocialTwitterCircular style={sizeStyle}/></a>
