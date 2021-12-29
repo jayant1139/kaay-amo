@@ -22,7 +22,7 @@ export default function Signin() {
             />
             <input className="sign-input" type="text" placeholder="Password" />
             <div className="d-flex justify-content-between my-2">
-              <div className="items">Remember me</div>
+              <div className="items"><input className="mx-1" type="checkbox" name="rememberme"/>Remember me</div>
               <div className="items"><span className="color-orange">Forgot password?</span></div>
             </div>
             <a href="" className="my-2"><span className="color-orange">Terms and Conditions</span>&<span className="color-orange">Privacy policy</span></a>
