@@ -217,9 +217,15 @@ color: #fff;
     margin-left: 10rem !important;
   }
   .email-sign{
-    padding-left: 25px;
-    background: url("") no-repeat left;
-    background-size: 20px;
+    padding-left: 2rem;
+    background: url("../src/Images/carbon_email.svg") no-repeat 1rem;
+    background-size: 1.2rem;
+    
+  }
+  .password-sign{
+    padding-left: 2rem;
+    background: url("../src/Images/key_pass.svg") no-repeat 1rem;
+    background-size: 1.2rem;
   }
 .login-btn{
   width: 8rem;
