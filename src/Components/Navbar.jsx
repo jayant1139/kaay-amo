@@ -1,11 +1,13 @@
 import React from 'react'
-
+import { Link } from 'react-router-dom'
+import Signin from './Signpage/Signin'
+import logo from '../Images/logo.png';
 export default function Navbar() {
     return (
         <>
          <nav className="navbar navbar-expand-lg navbar-light bg-light">
   <div className="container-fluid">
-    <a className="navbar-brand" href="#"><img src='logo512.png' width={50}/></a>
+    <a className="navbar-brand" href="#"><img src={logo} /></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
@@ -86,8 +88,8 @@ export default function Navbar() {
       
       </ul>
       <form className="d-flex">
-        <button className="signin-btn mx-1 ">Sign In</button>
-        <button className="signup-btn mx-2" type="submit">Sign Up</button>
+        <a to={Signin}><button className="signin-btn mx-1 ">Sign In</button></a>
+       <button className="signup-btn mx-2" type="submit">Sign Up</button>
       </form>
     </div>
   </div>
