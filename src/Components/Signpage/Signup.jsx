@@ -31,53 +31,53 @@ export default function Signup() {
           </div>
           <div className="signup-right mx-3">
             <div className="d-flex flex-column">
-                <div className="d-flex justify-content-between">
+                <div className="d-flex justify-content-between align-items-center">
               <h2>Register</h2>
-              <h4> Already a member? <span>Sign In</span></h4>
+              <h6 className="right-top-float"> Already a member? <span><a href="">Sign In</a></span></h6>
               </div>
-              <label htmlFor="">Full Name</label>
+              <label className="labels" htmlFor="">Full Name</label>
               <input
                 className="signup-input "
                 type="text"
                 placeholder=" "
               />
 
-              <label htmlFor="">Email</label>
+              <label className="labels" htmlFor="">Email</label>
               <input
                 className="signup-input "
                 type="text"
                 placeholder=" "
               />
 
-              <label htmlFor="">Enter your Mobile Number</label>
+              <label className="labels" htmlFor="">Enter your Mobile Number</label>
               <input
                 className="signup-input "
                 type="text"
                 placeholder=" "
               />
               
-              <label htmlFor="">Class</label>
+              <label className="labels" htmlFor="">Class</label>
               <input
                 className="signup-input "
                 type="text"
                 placeholder=" "
               />
               
-              <label htmlFor="">Username</label>
+              <label className="labels" htmlFor="">Username</label>
               <input
                 className="signup-input "
                 type="text"
                 placeholder=" "
               />
               
-              <label htmlFor="">Paasword</label>
+              <label className="labels" htmlFor="">Paasword</label>
               <input
                 className="signup-input "
                 type="password"
                 placeholder=" "
               />
                {/* <FontAwesomeIcon icon={faEye} style={visibletoggle} /> */}
-              <label htmlFor="">Confirm Paasword</label>
+              <label className="labels" htmlFor="">Confirm Paasword</label>
               <input
                 className="signup-input password-sign"
                 type="password"
@@ -85,16 +85,8 @@ export default function Signup() {
               />
               {/* <FontAwesomeIcon icon={faEye} style={visibletoggle} /> */}
 
-              <div className="d-flex justify-content-between my-2">
-                <div className="items">
-                  <input className="mx-1" type="checkbox" name="rememberme" />
-                  Remember me
-                </div>
-                <div className="items">
-                  <span className="color-orange">Forgot password?</span>
-                </div>
-              </div>
-              <div className="d-flex align-items-center justify-content-between">
+             
+              <div className="d-flex align-items-center justify-content-between my-2">
                 <div className="icon">
                   <FcGoogle style={googlecolor} /> <span>Google</span>
                 </div>
@@ -103,8 +95,13 @@ export default function Signup() {
                 </div>
               </div>
               <a href="" className="my-2">
-                <span className="color-orange">Terms and Conditions</span>&
-                <span className="color-orange">Privacy policy</span>
+              <div className="termspolicy d-flex align-items-center">
+
+                  <input className="mx-2" type="checkbox" name="rememberme" />
+                 <p> By creating an account you are agreeing to the <span className="color-orange">Terms and Conditions</span>
+                 </p></div>
+                
+                
               </a>
               <button className="signup-btn my-2 login-btn">Login</button>
             </div>

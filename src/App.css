@@ -196,7 +196,8 @@ color: #fff;
     /* border:2px solid green; */
   }
   .sign img{
-    height: 100vh ;
+    width: 26rem;
+    margin:1rem 0;
     /* width: 55rem; */
     /* border:2px solid tomato; */
   }
@@ -214,7 +215,7 @@ color: #fff;
     padding: 0.2rem;
     border:0.1rem solid rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
-    /* margin:0.5rem 0; */
+    margin:0.05rem 0;
   }
   .sign-right{
     /* border: 2px solid tomato; */
@@ -223,8 +224,25 @@ color: #fff;
     margin-left: 10rem !important;
   }
   .signup-right{
+    margin-top: 1.5rem;
     margin-left: 10rem !important;
     width: 30vw;
+  }
+  .right-top-float{
+    position: absolute;
+    /* background-color: #a19999; */
+    right: 5%;
+  }
+  .right-top-float span a{
+    color: #E1701A;
+  }
+  .labels{
+    margin: 0.05rem 0.5rem;
+  }
+
+  .termspolicy p{
+    font-size: 0.75rem !important;
+    margin-top: 1rem;
   }
   .email-sign{
     padding-left: 2rem;
