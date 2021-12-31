@@ -10,11 +10,11 @@ import Signup from './Components/Signpage/Signup';
 function App() {
   return (
 <>
-<Navbar/>
+{/* <Navbar/> */}
 {/* <Home/> */}
-<Signin/>
-{/* <Signup/> */}
-<Footer/>
+{/* <Signin/> */}
+<Signup/>
+{/* <Footer/> */}
 </>
   );
 }

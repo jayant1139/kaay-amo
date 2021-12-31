@@ -210,11 +210,21 @@ color: #fff;
   .sign-input::placeholder{
     padding: 1rem;
   } 
+  .signup-input{
+    padding: 0.2rem;
+    border:0.1rem solid rgba(0, 0, 0, 0.5);
+    border-radius: 1rem;
+    /* margin:0.5rem 0; */
+  }
   .sign-right{
     /* border: 2px solid tomato; */
     margin-top: 10rem;
     width: 40vw;
     margin-left: 10rem !important;
+  }
+  .signup-right{
+    margin-left: 10rem !important;
+    width: 30vw;
   }
   .email-sign{
     padding-left: 2rem;
