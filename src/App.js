@@ -14,7 +14,7 @@ function App() {
 {/* <Home/> */}
 <Signin/>
 <Signup/>
-{/* <Footer/> */}
+<Footer/>
 </>
   );
 }
