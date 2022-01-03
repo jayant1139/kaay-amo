@@ -12,8 +12,8 @@ function App() {
 <>
 {/* <Navbar/> */}
 {/* <Home/> */}
-<Signin/>
-<Signup/>
+{/* <Signin/> */}
+{/* <Signup/> */}
 <Footer/>
 </>
   );
