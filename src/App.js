@@ -6,6 +6,7 @@ import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
 import Signin from './Components/Signpage/Signin';
 import Signup from './Components/Signpage/Signup';
+import TermsCondition from './Components/Signpage/TermsCondition';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
 {/* <Home/> */}
 {/* <Signin/> */}
 {/* <Signup/> */}
+<TermsCondition/>
 <Footer/>
 </>
   );
