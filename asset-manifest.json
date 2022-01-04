@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/kaay-amo/static/css/main.80247471.css",
-    "main.js": "/kaay-amo/static/js/main.9fb02e92.js",
+    "main.css": "/kaay-amo/static/css/main.09954391.css",
+    "main.js": "/kaay-amo/static/js/main.4cbd011a.js",
     "static/media/slide3.svg": "/kaay-amo/static/media/slide3.4fe56ffa62cc789019ed17e6c6618061.svg",
     "static/media/sign_in_up_left.svg": "/kaay-amo/static/media/sign_in_up_left.28572ca0f803fc4891eb5afb2f972fb4.svg",
     "static/media/slide1.svg": "/kaay-amo/static/media/slide1.4ab26671dfcf52aa790a31aad41f29b7.svg",
@@ -9,11 +9,11 @@
     "static/media/key_pass.svg": "/kaay-amo/static/media/key_pass.89da6fde78921f6d6103.svg",
     "index.html": "/kaay-amo/index.html",
     "static/media/carbon_email.svg": "/kaay-amo/static/media/carbon_email.8ad0ab11ee0d7e46c44f.svg",
-    "main.80247471.css.map": "/kaay-amo/static/css/main.80247471.css.map",
-    "main.9fb02e92.js.map": "/kaay-amo/static/js/main.9fb02e92.js.map"
+    "main.09954391.css.map": "/kaay-amo/static/css/main.09954391.css.map",
+    "main.4cbd011a.js.map": "/kaay-amo/static/js/main.4cbd011a.js.map"
   },
   "entrypoints": [
-    "static/css/main.80247471.css",
-    "static/js/main.9fb02e92.js"
+    "static/css/main.09954391.css",
+    "static/js/main.4cbd011a.js"
   ]
 }
