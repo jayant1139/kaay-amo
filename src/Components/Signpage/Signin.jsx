@@ -54,7 +54,9 @@ export default function Signin() {
                   Remember me
                 </div>
                 <div className="items">
+                 <NavLink to="ForgotPassword">
                   <span className="color-orange">Forgot password?</span>
+                  </NavLink>
                 </div>
               </div>
               <div className="d-flex align-items-center justify-content-between">
