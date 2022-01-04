@@ -1,6 +1,7 @@
 import React from 'react'
 import ImageSlider from '../ImageSlider';
 import Navbar from '../Navbar';
+import Footer from '../Footer';
 export default function Home() {
     return (
         <>
@@ -13,6 +14,7 @@ export default function Home() {
          <button className="learnmore-outline-btn mx-2">Learn More</button>
          </div>
          </div>
+         <Footer/>
         </>
     )
 }

@@ -14,8 +14,10 @@ function App() {
 <>
 <Routes>
   <Route path='/' index element={<Home/>}/>
-  <Route path='/Signin' index element={<Signin/>}/>
-  <Route path='/Signup' index element={<Signup/>}/>
+  <Route path='/Signin'  element={<Signin/>}/>
+  <Route path='/Signup'  element={<Signup/>}/>
+  <Route path='/Signin/Terms&Conditions' element={<TermsCondition/>}/>
+  <Route path='/Signup/Terms&Conditions' element={<TermsCondition/>}/>
 
 {/* <Home/> */}
 {/* <Signin/> */}

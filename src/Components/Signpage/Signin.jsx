@@ -1,4 +1,5 @@
 import React from "react";
+import { Link, NavLink } from "react-router-dom";
 import { FcGoogle } from "react-icons/fc";
 import { ImFacebook2 } from "react-icons/im";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -64,10 +65,10 @@ export default function Signin() {
                   <ImFacebook2 style={fbcolor} /> <span>Facebook</span>
                 </div>
               </div>
-              <a href="" className="my-2">
+              <NavLink to="Terms&Conditions" className="my-2">
                 <span className="color-orange">Terms and Conditions</span>&
                 <span className="color-orange">Privacy policy</span>
-              </a>
+              </NavLink>
               <button className="signup-btn my-2 login-btn">Login</button>
             </div>
           </div>

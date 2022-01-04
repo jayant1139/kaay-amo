@@ -10,6 +10,11 @@ a{
 ul{
   list-style: none;
 }
+input{
+  /* background-color: #E1701A; */
+  text-indent: 1.5rem;
+  /* padding-left: 2rem !important; */
+}
 .color-orange{
   color: #E1701A;
 }
@@ -217,6 +222,7 @@ color: #fff;
     border-radius: 1rem;
     margin:0.05rem 0;
   }
+  
   .sign-right{
     /* border: 2px solid tomato; */
     margin-top: 10rem;

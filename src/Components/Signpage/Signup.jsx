@@ -3,6 +3,7 @@ import { FcGoogle } from "react-icons/fc";
 import { ImFacebook2 } from "react-icons/im";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
+import { Link } from "react-router-dom";
 export default function Signup() {
   const fbcolor = {
     color: "#395185",
@@ -33,7 +34,7 @@ export default function Signup() {
             <div className="d-flex flex-column">
                 <div className="d-flex justify-content-between align-items-center">
               <h2>Register</h2>
-              <h6 className="right-top-float"> Already a member? <span><a href="">Sign In</a></span></h6>
+              <h6 className="right-top-float"> Already a member? <span><Link to="/signin">Sign In</Link></span></h6>
               </div>
               <label className="labels" htmlFor="">Full Name</label>
               <input
@@ -72,7 +73,7 @@ export default function Signup() {
               
               <label className="labels" htmlFor="">Paasword</label>
               <input
-                className="signup-input "
+                className="signup-input password-sign"
                 type="password"
                 placeholder=" "
               />
@@ -94,11 +95,11 @@ export default function Signup() {
                   <ImFacebook2 style={fbcolor} /> <span>Facebook</span>
                 </div>
               </div>
-              <a href="" className="my-2">
+              <a to="Terms&Conditions" className="my-2">
               <div className="termspolicy d-flex align-items-center">
 
                   <input className="mx-2" type="checkbox" name="rememberme" />
-                 <p> By creating an account you are agreeing to the <span className="color-orange">Terms and Conditions</span>
+                 <p> By creating an account you are agreeing to the <Link to="Terms&Conditions"> <span className="color-orange">Terms and Conditions</span></Link>
                  </p></div>
                 
                 
