@@ -7,6 +7,9 @@ a{
   text-decoration: none;
   color: #030303;
 }
+a:hover{
+  color: #000000;
+}
 ul{
   list-style: none;
 }
@@ -239,7 +242,7 @@ color: #fff;
     /* background-color: #a19999; */
     right: 5%;
   }
-  .right-top-float span a{
+  .right-top-float span a, .corner span {
     color: #E1701A;
   }
   .labels{

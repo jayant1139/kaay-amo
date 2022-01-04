@@ -5,6 +5,7 @@ import Footer from './Components/Footer';
 
 import Navbar from './Components/Navbar';
 import Home from './Components/Pages/Home';
+import Emailsent from './Components/Recover/Emailsent';
 import ForgotPassword from './Components/Recover/ForgotPassword';
 import Signin from './Components/Signpage/Signin';
 import Signup from './Components/Signpage/Signup';
@@ -20,6 +21,7 @@ function App() {
   <Route path='/Signin/Terms&Conditions' element={<TermsCondition/>}/>
   <Route path='/Signup/Terms&Conditions' element={<TermsCondition/>}/>
   <Route path='/Signin/ForgotPassword' element={<ForgotPassword/>}/>
+  <Route path='/Signin/Emailsent' element={<Emailsent/>}/>
 
 
 {/* <Home/> */}

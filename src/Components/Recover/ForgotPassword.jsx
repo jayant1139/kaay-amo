@@ -1,9 +1,16 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 export default function ForgotPassword() {
     const greycolor={
         color:"000000",
         opacity:'0.8'
+    }
+    const navigate=useNavigate();
+
+    const ResetPass = e => {
+      e.preventDefault()
+      navigate("/Signin/Emailsent")
     }
   return (
     <>
@@ -30,10 +37,10 @@ export default function ForgotPassword() {
               <input
                 className="sign-input m-0 "
                 type="mail"
-                placeholder=""
+                placeholder="xyz123@gmail.com"
               />
               </div>
-              <button className="signup-btn my-5 login-btn">Reset Password</button>
+              <button className="signup-btn my-5 login-btn" onClick={ResetPass}>Reset Password</button>
             </div>
           </div>
         </div>
