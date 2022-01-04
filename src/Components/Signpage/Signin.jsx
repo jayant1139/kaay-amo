@@ -45,7 +45,7 @@ export default function Signin() {
                 type="text"
                 placeholder="Password"  
               />
-               <FontAwesomeIcon icon={faEye} style={visibletoggle}/>
+               {/* <FontAwesomeIcon icon={faEye} style={visibletoggle}/> */}
               
               <div className="d-flex justify-content-between my-2">
                 <div className="items">

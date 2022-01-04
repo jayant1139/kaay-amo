@@ -1,8 +1,21 @@
 import React from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useNavigate, useParams } from 'react-router-dom'
 import Signin from './Signpage/Signin'
 import logo from '../Images/logo.png';
 export default function Navbar() {
+  // const params=useParams();
+  const navigate=useNavigate();
+
+  const onSignin = e => {
+    e.preventDefault()
+    navigate("/Signin")
+  }
+
+  const onSignup = e => {
+    e.preventDefault()
+    navigate("/Signup")
+  }
+
     return (
         <>
          <nav className="navbar navbar-expand-lg navbar-light bg-light">
@@ -88,8 +101,8 @@ export default function Navbar() {
       
       </ul>
       <form className="d-flex">
-        <a to={Signin}><button className="signin-btn mx-1 ">Sign In</button></a>
-       <button className="signup-btn mx-2" type="submit">Sign Up</button>
+        <button onClick={onSignin} className="signin-btn mx-1 ">Sign In</button>
+        <button onClick={onSignup} className="signup-btn mx-2" type="submit">Sign Up</button>
       </form>
     </div>
   </div>

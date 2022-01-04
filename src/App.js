@@ -1,4 +1,5 @@
 
+import { Route, Routes } from 'react-router-dom';
 import './App.css';
 import Footer from './Components/Footer';
 
@@ -11,12 +12,17 @@ import TermsCondition from './Components/Signpage/TermsCondition';
 function App() {
   return (
 <>
-{/* <Navbar/> */}
+<Routes>
+  <Route path='/' index element={<Home/>}/>
+  <Route path='/Signin' index element={<Signin/>}/>
+  <Route path='/Signup' index element={<Signup/>}/>
+
 {/* <Home/> */}
 {/* <Signin/> */}
 {/* <Signup/> */}
-<TermsCondition/>
-<Footer/>
+{/* <TermsCondition/> */}
+{/* <Footer/> */}
+</Routes>
 </>
   );
 }

@@ -1,8 +1,10 @@
 import React from 'react'
 import ImageSlider from '../ImageSlider';
+import Navbar from '../Navbar';
 export default function Home() {
     return (
         <>
+        <Navbar/>
          <h1 className='banner-h1'>Do one fun thing everyday </h1>   
          <div className="imageslider">
          <ImageSlider/>
