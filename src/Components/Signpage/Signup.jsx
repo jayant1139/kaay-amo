@@ -3,8 +3,13 @@ import { FcGoogle } from "react-icons/fc";
 import { ImFacebook2 } from "react-icons/im";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
-import { Link } from "react-router-dom";
+import { Link, NavLink, useNavigate } from "react-router-dom";
 export default function Signup() {
+  const navigate=useNavigate();
+  const otpverify= e =>{
+    e.preventDefault();
+    navigate("../Verify/Mobileverification");
+  }
   const fbcolor = {
     color: "#395185",
     fontSize: "1.5rem",
@@ -104,7 +109,9 @@ export default function Signup() {
                 
                 
               </a>
-              <button className="signup-btn my-2 login-btn">Login</button>
+              
+              <button onClick={otpverify} className="signup-btn my-2 login-btn">Login</button>
+              
             </div>
           </div>
         </div>
