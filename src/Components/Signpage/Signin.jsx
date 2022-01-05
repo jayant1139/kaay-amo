@@ -31,10 +31,11 @@ export default function Signin() {
               alt=""
             />
           </div>
+          <h6 className="right-top-float my-5"> Already a member? <span><Link to="/signup">Sign up</Link></span></h6>
           <div className="sign-right mx-3">
             <div className="d-flex flex-column">
               <h2>Sign in</h2>
-            
+              
               <input
                 className="sign-input email-sign"
                 type="text"
