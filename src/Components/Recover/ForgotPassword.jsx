@@ -32,15 +32,16 @@ export default function ForgotPassword() {
                 Enter the email address you used when you joined and we’ll send
                 you instructions to reset your password.
               </p>
-              <div className="my-3 d-flex flex-column">
+              <form method="post" className="my-3 d-flex flex-column">
               <label className="my-1 mx-1">Email</label>
               <input
                 className="sign-input m-0 "
                 type="mail"
                 placeholder="xyz123@gmail.com"
-              />
-              </div>
-              <button className="signup-btn my-5 login-btn" onClick={ResetPass}>Reset Password</button>
+             required />
+               <button className="signup-btn my-5 login-btn" onClick={ResetPass}>Reset Password</button>
+              </form>
+            
             </div>
           </div>
         </div>

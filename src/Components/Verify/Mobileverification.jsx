@@ -1,7 +1,12 @@
 import React from "react";
 import { BsArrowLeft } from "react-icons/bs";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 export default function Mobileverification() {
+  const navigate=useNavigate();
+  const emailverify= e =>{
+    e.preventDefault();
+    navigate("../Verify/Emailverification");
+  }
   const arrowleftstyle = {
     fontSize: "1.5rem",
     color: "#000000B2",
@@ -30,7 +35,7 @@ export default function Mobileverification() {
           <a href="/kaay-amo">
           <p className="m-3" style={colorgrey}>Send the code again</p>
           </a>
-          <button className="verify-btn ">Verify</button>
+          <button className="verify-btn " onClick={emailverify}>Verify</button>
         </div>
       </div>
     </>

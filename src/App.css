@@ -18,6 +18,9 @@ input{
   text-indent: 1.5rem;
   /* padding-left: 2rem !important; */
 }
+input:focus{
+  outline: none;
+}
 .color-orange{
   color: #E1701A;
 }
@@ -58,6 +61,16 @@ color: #fff;
   border-color: brown !important;
   box-shadow: none !important;
   /* background-color: brown; */
+}
+.chatbox-icon{
+  /* background-color: #000000; */
+  position: absolute;
+  bottom: 8%;
+  right: 3%;
+  cursor: pointer;
+}
+.chatbox-icon img{
+  width: 4rem;
 }
 .banner-h1{
   color: #FBD148;

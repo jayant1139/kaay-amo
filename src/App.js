@@ -11,7 +11,7 @@ import Signin from './Components/Signpage/Signin';
 import Signup from './Components/Signpage/Signup';
 import TermsCondition from './Components/Signpage/TermsCondition';
 import Mobileverification from './Components/Verify/Mobileverification';
-
+import Emailverification from './Components/Verify/Emailverification';
 function App() {
   return (
 <>
@@ -24,6 +24,7 @@ function App() {
   <Route path='/Signin/ForgotPassword' element={<ForgotPassword/>}/>
   <Route path='/Signin/Emailsent' element={<Emailsent/>}/>
   <Route path='/Verify/Mobileverification' element={<Mobileverification/>}/>
+  <Route path='/Verify/Emailverification' element={<Emailverification/>}/>
 
 
 {/* <Home/> */}
