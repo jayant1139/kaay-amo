@@ -44,7 +44,7 @@ export default function Signin() {
               
               <input
                 className="sign-input password-sign"
-                type="text"
+                type="password"
                 placeholder="Password"  
               />
                {/* <FontAwesomeIcon icon={faEye} style={visibletoggle}/> */}
