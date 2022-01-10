@@ -65,8 +65,8 @@ color: #fff;
 .chatbox-icon{
   /* background-color: #000000; */
   position: absolute;
-  bottom: 8%;
-  right: 3%;
+  top: 26rem;
+  right: 5%;
   cursor: pointer;
 }
 .chatbox-icon img{
@@ -213,12 +213,10 @@ color: #fff;
     margin-right: 1.5rem;
   }
   /* signin signup  */
-  .sign{
-    /* border:2px solid green; */
-  }
+
   .sign img{
-    width: 26rem;
-    margin:1rem 0;
+    width: 27rem;
+    margin:1rem 3rem;
     /* width: 55rem; */
     /* border:2px solid tomato; */
   }
@@ -230,7 +228,7 @@ color: #fff;
     border-radius: 1rem;
   }
   .sign-input::placeholder{
-    padding: 1rem;
+    /* padding: 1rem; */
   } 
   .signup-input{
     padding: 0.2rem;
@@ -242,8 +240,8 @@ color: #fff;
   .sign-right{
     /* border: 2px solid tomato; */
     margin-top: 10rem;
-    width: 40vw;
-    margin-left: 10rem !important;
+    width: 25vw;
+    margin-left: 2rem !important ;
   }
   .signup-right{
     margin-top: 1.5rem;
@@ -267,13 +265,13 @@ color: #fff;
     margin-top: 1rem;
   }
   .email-sign{
-    padding-left: 2rem;
+    padding-left: 1.2rem;
     background: url("../src/Images/carbon_email.svg") no-repeat 1rem;
     background-size: 1.2rem;
     
   }
   .password-sign{
-    padding-left: 2rem;
+    padding-left: 1.2rem;
     background: url("../src/Images/key_pass.svg") no-repeat 1rem;
     background-size: 1.2rem;
   }

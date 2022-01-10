@@ -24,7 +24,7 @@ export default function Signin() {
   return (
     <>
       <div className="wrapsign">
-        <div className="d-flex justify-content-start">
+        <div className="d-flex ">
           <div className="sign">
             <img
               src={require("../../Images/sign_in_up_left.svg").default}
@@ -39,7 +39,7 @@ export default function Signin() {
               <input
                 className="sign-input email-sign"
                 type="text"
-                placeholder=" Email Address"
+                placeholder="Email Address"
               />
               
               <input
