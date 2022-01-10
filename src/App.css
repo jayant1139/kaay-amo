@@ -216,7 +216,7 @@ color: #fff;
 
   .sign img{
     width: 27rem;
-    margin:1rem 3rem;
+    margin:0.5rem 3rem;
     /* width: 55rem; */
     /* border:2px solid tomato; */
   }
@@ -259,7 +259,24 @@ color: #fff;
   .labels{
     margin: 0.05rem 0.5rem;
   }
+  .rm .items .items-child input[type="checkbox"]{
+    width: 1.3rem;
+    height: 1.3rem;
+  appearance: none;
+  border-radius: 0.3rem;
+  border:0.1rem solid grey;
+  cursor: pointer;
+  
+  /* background-color: #a12323 !important; */
+}
+.rm .items .items-child input[type="checkbox"]:checked{
+ background: url("../src/Images/check-tick.svg");
+ background-repeat: no-repeat;
+ background-position: center;
+ background-size: 0.9rem;
+ /* padding: 1rem; */
 
+}
   .termspolicy p{
     font-size: 0.75rem !important;
     margin-top: 1rem;

@@ -49,10 +49,12 @@ export default function Signin() {
               />
                {/* <FontAwesomeIcon icon={faEye} style={visibletoggle}/> */}
               
-              <div className="d-flex justify-content-between my-2">
+              <div className="d-flex  justify-content-between  my-2 rm">
                 <div className="items">
-                  <input className="mx-1" type="checkbox" name="rememberme" />
-                  Remember me
+                <div className="d-flex items-child">
+                <input className="mx-2 checkbox" type="checkbox" name="rememberme" />
+                  <h6>Remember me</h6>
+                  </div>
                 </div>
                 <div className="items">
                  <NavLink to="ForgotPassword">
