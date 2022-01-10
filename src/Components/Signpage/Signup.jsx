@@ -35,7 +35,7 @@ export default function Signup() {
               alt=""
             />
           </div>
-          <div className="signup-right mx-3">
+          <div className="signup-right ">
             <div className="d-flex flex-column">
               <div className="d-flex justify-content-between align-items-center">
                 <h2>Register</h2>
@@ -70,24 +70,24 @@ export default function Signup() {
               <label className="labels" htmlFor="">
                 Username
               </label>
-              <input className="signup-input " type="text" placeholder=" " />
+              <input className="signup-input " type="text" placeholder="" />
 
               <label className="labels" htmlFor="">
                 Paasword
               </label>
               <input
-                className="signup-input "
+                className="signup-input signup-password "
                 type="password"
-                placeholder=" "
+                placeholder=""
               />
               {/* <FontAwesomeIcon icon={faEye} style={visibletoggle} /> */}
               <label className="labels" htmlFor="">
                 Confirm Paasword
               </label>
-              <input className="signup-input " type="password" placeholder="" />
+              <input className="signup-input signup-password " type="password" placeholder="" />
               {/* <FontAwesomeIcon icon={faEye} style={visibletoggle} /> */}
 
-              <div className="d-flex align-items-center justify-content-between my-2">
+              <div className="d-flex align-items-center justify-content-evenly my-2">
                 <div className="icon">
                   <FcGoogle style={googlecolor} /> <span>Google</span>
                 </div>
@@ -99,10 +99,10 @@ export default function Signup() {
                 <div className="termspolicy d-flex align-items-center">
                   <input className="mx-2" type="checkbox" name="rememberme" />
                   <p>
-                    {" "}
+                    
                     By creating an account you are agreeing to the{" "}
                     <Link to="Terms&Conditions">
-                      {" "}
+                     
                       <span className="color-orange">Terms and Conditions</span>
                     </Link>
                   </p>
@@ -113,7 +113,7 @@ export default function Signup() {
               </button>
             </div>
           </div>
-          <div className="chatbox-icon"><img src={require("../../Images/chatbox.svg").default} alt="" srcset="" /></div>
+          <div className="chatbox-icon-signup"><img src={require("../../Images/chatbox.svg").default} alt="" srcset="" /></div>
              
         </div>
       </div>

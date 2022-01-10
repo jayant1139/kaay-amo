@@ -14,13 +14,15 @@ ul{
   list-style: none;
 }
 input{
+  
   /* background-color: #E1701A; */
   text-indent: 1.5rem;
   /* padding-left: 2rem !important; */
 }
 input[type="password"]{
   font:small-caption;
-  font-size: 1rem;
+  padding:0.3rem 1.2rem;
+  font-size: 1.2rem;
 }
 input:focus{
   outline: none;
@@ -73,7 +75,13 @@ color: #fff;
   right: 5%;
   cursor: pointer;
 }
-.chatbox-icon img{
+.chatbox-icon-signup{
+  position: absolute;
+  top: 35rem;
+  right: 2%;
+  cursor: pointer;
+}
+.chatbox-icon img, .chatbox-icon-signup img{
   width: 4rem;
 }
 .banner-h1{
@@ -226,19 +234,25 @@ color: #fff;
   }
   .sign-input{
     /* background-color: green; */
+    font-size: 1.2rem;
     padding: 0.2rem;
     margin: 1rem 0;
     border:0.1rem solid rgba(0, 0, 0, 0.5);
-    border-radius: 1rem;
+    border-radius: 2rem;
   }
   .sign-input::placeholder{
     /* padding: 1rem; */
   } 
   .signup-input{
-    padding: 0.2rem;
+    font-size: 1.2rem;
+    padding: 0.1rem;
     border:0.1rem solid rgba(0, 0, 0, 0.5);
     border-radius: 1rem;
     margin:0.05rem 0;
+  }
+  .signup-password{
+    font-size: 1.2rem;
+    padding: 0.1rem !important;
   }
   
   .sign-right{
@@ -248,9 +262,12 @@ color: #fff;
     margin-left: 2rem !important ;
   }
   .signup-right{
-    margin-top: 1.5rem;
-    margin-left: 10rem !important;
-    width: 30vw;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    /* width: 30vw; */
+  }
+  .signup-right input{
+    width: 25rem;
   }
   .right-top-float{
     position: absolute;
@@ -263,7 +280,7 @@ color: #fff;
   .labels{
     margin: 0.05rem 0.5rem;
   }
-  .rm .items .items-child input[type="checkbox"]{
+   input[type="checkbox"]{
     width: 1.3rem;
     height: 1.3rem;
   appearance: none;
@@ -273,7 +290,7 @@ color: #fff;
   
   /* background-color: #a12323 !important; */
 }
-.rm .items .items-child input[type="checkbox"]:checked{
+ input[type="checkbox"]:checked{
  background: url("../src/Images/check-tick.svg");
  background-repeat: no-repeat;
  background-position: center;
@@ -282,19 +299,21 @@ color: #fff;
 
 }
   .termspolicy p{
-    font-size: 0.75rem !important;
+    font-size: 0.85rem !important;
     margin-top: 1rem;
   }
   .email-sign{
+    /* font-size: 1.2rem; */
     padding-left: 1.2rem;
     background: url("../src/Images/carbon_email.svg") no-repeat 1rem;
-    background-size: 1.2rem;
+    background-size: 1.4rem;
     
   }
   .password-sign{
+    
     padding-left: 1.2rem;
     background: url("../src/Images/key_pass.svg") no-repeat 1rem;
-    background-size: 1.2rem;
+    background-size: 1.3rem;
   }
 .login-btn{
   width: 8rem;
@@ -344,8 +363,30 @@ color: rgba(255, 255, 255, 0.952);
   background-color: #f8b944c2;
 }
 
+
+
+@media screen and (max-width:1024px) {
+  html{
+    font-size:85%;
+  }
+}
   @media screen and (max-width:768px) {
     html{
-      font-size:45%;
+      font-size:65%;
+    }
+  }
+  @media screen and (max-width:540px) {
+    html{
+      font-size: 45%;
+    }
+  }
+  @media screen and (max-width:425px) {
+    html{
+      font-size: 35%;
+    }
+  }
+  @media screen and (max-width:375px) {
+    html{
+      font-size: 28%;
     }
   }
