@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/kaay-amo/static/css/main.8d62f2f9.css",
-    "main.js": "/kaay-amo/static/js/main.dc65db4d.js",
+    "main.css": "/kaay-amo/static/css/main.023c91f9.css",
+    "main.js": "/kaay-amo/static/js/main.f048055c.js",
     "static/media/slide3.svg": "/kaay-amo/static/media/slide3.4fe56ffa62cc789019ed17e6c6618061.svg",
     "static/media/sign_in_up_left.svg": "/kaay-amo/static/media/sign_in_up_left.28572ca0f803fc4891eb5afb2f972fb4.svg",
     "static/media/slide1.svg": "/kaay-amo/static/media/slide1.4ab26671dfcf52aa790a31aad41f29b7.svg",
     "static/media/slide2.svg": "/kaay-amo/static/media/slide2.601a003e61ea8c5f1d3e339f60719b09.svg",
     "static/media/chatbox.svg": "/kaay-amo/static/media/chatbox.c52955b5cd63095d540f4384915483b4.svg",
     "static/media/key_pass.svg": "/kaay-amo/static/media/key_pass.89da6fde78921f6d6103.svg",
+    "static/media/check-tick.svg": "/kaay-amo/static/media/check-tick.95cb612a68fb2cb81c58.svg",
     "index.html": "/kaay-amo/index.html",
     "static/media/carbon_email.svg": "/kaay-amo/static/media/carbon_email.8ad0ab11ee0d7e46c44f.svg",
-    "main.8d62f2f9.css.map": "/kaay-amo/static/css/main.8d62f2f9.css.map",
-    "main.dc65db4d.js.map": "/kaay-amo/static/js/main.dc65db4d.js.map"
+    "main.023c91f9.css.map": "/kaay-amo/static/css/main.023c91f9.css.map",
+    "main.f048055c.js.map": "/kaay-amo/static/js/main.f048055c.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d62f2f9.css",
-    "static/js/main.dc65db4d.js"
+    "static/css/main.023c91f9.css",
+    "static/js/main.f048055c.js"
   ]
 }
