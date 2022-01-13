@@ -397,7 +397,20 @@ color: rgba(255, 255, 255, 0.952);
   border-bottom-left-radius: 0;
   border-top-left-radius: 0;
 }
-
+.PhoneInputCountryIcon--border{
+  box-shadow: none !important;
+}
+.PhoneInputCountryIcon{
+  width: 1.8rem !important;
+  height: auto !important;
+  border-radius: 4rem !important;
+  margin-left: 0.5rem;
+}
+.PhoneInputInput{
+  border: none;
+  text-indent:0;
+  margin: 0;
+}
 @media screen and (max-width:1024px) {
   html{
     font-size:85%;

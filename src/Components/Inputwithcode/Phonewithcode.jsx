@@ -1,9 +1,13 @@
-import React from 'react'
-
+import React from "react";
+import { useState } from "react";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+import flags from "react-phone-number-input/flags";
 export default function Phonewithcode() {
-    return (
-        <div>
-           {/* <div className="d-flex">
+  const [value, setValue] = useState();
+  return (
+    <div>
+      {/* <div className="d-flex">
            <select className='code-sm' type="dropdown" onfocus='this.size=10;' onblur='this.size=0;' onchange='this.size=1; this.blur();' >
            <option></option>
     <option value="five">5th</option>
@@ -18,7 +22,14 @@ export default function Phonewithcode() {
     </select>
            <input className='leftbordernone' type="text" />
            </div> */}
-        </div>
-    
-    )
+      <PhoneInput
+       international
+       defaultCountry="IN"
+        value={value}
+        onChange={setValue}
+        style={{border:"0.12rem solid grey",
+    width:"15rem",borderRadius:"1.5rem", padding:"0.4rem"}}
+      />
+    </div>
+  );
 }

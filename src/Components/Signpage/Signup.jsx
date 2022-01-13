@@ -4,7 +4,12 @@ import { ImFacebook2 } from "react-icons/im";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEye } from "@fortawesome/free-solid-svg-icons";
 import { Link, NavLink, useNavigate } from "react-router-dom";
+import { useState } from "react";
+import PhoneInput from "react-phone-number-input";
+import "react-phone-number-input/style.css";
+
 export default function Signup() {
+  const [value, setValue] = useState();
   const navigate = useNavigate();
   const otpverify = (e) => {
     e.preventDefault();
@@ -60,6 +65,18 @@ export default function Signup() {
               <label className="labels" htmlFor="">
                 Enter your Mobile Number
               </label>
+              <PhoneInput
+                international
+                defaultCountry="IN"
+                value={value}
+                onChange={setValue}
+                style={{
+                  border: "0.12rem solid grey",
+                  width: "15rem",
+                  borderRadius: "1.5rem",
+                  padding: "0.4rem",
+                }}
+              />
               <input className="signup-input " type="text" placeholder=" " />
 
               <label className="labels" htmlFor="">
@@ -84,7 +101,11 @@ export default function Signup() {
               <label className="labels" htmlFor="">
                 Confirm Paasword
               </label>
-              <input className="signup-input signup-password " type="password" placeholder="" />
+              <input
+                className="signup-input signup-password "
+                type="password"
+                placeholder=""
+              />
               {/* <FontAwesomeIcon icon={faEye} style={visibletoggle} /> */}
 
               <div className="d-flex align-items-center justify-content-evenly my-2">
@@ -99,10 +120,8 @@ export default function Signup() {
                 <div className="termspolicy d-flex align-items-center">
                   <input className="mx-2" type="checkbox" name="rememberme" />
                   <p>
-                    
                     By creating an account you are agreeing to the{" "}
                     <Link to="Terms&Conditions">
-                     
                       <span className="color-orange">Terms and Conditions</span>
                     </Link>
                   </p>
@@ -113,8 +132,13 @@ export default function Signup() {
               </button>
             </div>
           </div>
-          <div className="chatbox-icon-signup"><img src={require("../../Images/chatbox.svg").default} alt="" srcset="" /></div>
-             
+          <div className="chatbox-icon-signup">
+            <img
+              src={require("../../Images/chatbox.svg").default}
+              alt=""
+              srcset=""
+            />
+          </div>
         </div>
       </div>
     </>
