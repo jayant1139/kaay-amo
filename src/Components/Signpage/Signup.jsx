@@ -98,7 +98,7 @@ export default function Signup() {
                 Paasword
               </label>
               <input
-                className="signup-input signup-password "
+                className="signup-input signup-password eyepassbg "
                 type="password"
                 placeholder=""
               />
