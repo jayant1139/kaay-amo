@@ -72,12 +72,12 @@ export default function Signup() {
                 onChange={setValue}
                 style={{
                   border: "0.12rem solid grey",
-                  width: "15rem",
-                  borderRadius: "1.5rem",
-                  padding: "0.4rem",
+                  width: "25rem",
+                  borderRadius: "1rem",
+                  padding: "0.2rem",
                 }}
               />
-              <input className="signup-input " type="text" placeholder=" " />
+              {/* <input className="signup-input " type="text" placeholder=" " /> */}
 
               <label className="labels" htmlFor="">
                 Class

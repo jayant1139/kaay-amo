@@ -16,8 +16,8 @@ import Phonewithcode from './Components/Inputwithcode/Phonewithcode';
 function App() {
   return (
 <>
-<Phonewithcode/>
-{/* <Routes>
+{/* <Phonewithcode/> */}
+<Routes>
   <Route path='/kaay-amo' index element={<Home/>}/>
   <Route path='/Signin'  element={<Signin/>}/>
   <Route path='/Signup'  element={<Signup/>}/>
@@ -27,14 +27,14 @@ function App() {
   <Route path='/Signin/Emailsent' element={<Emailsent/>}/>
   <Route path='/Verify/Mobileverification' element={<Mobileverification/>}/>
   <Route path='/Verify/Emailverification' element={<Emailverification/>}/>
- */}
+
 
 {/* <Home/> */}
 {/* <Signin/> */}
 {/* <Signup/> */}
 {/* <TermsCondition/> */}
 {/* <Footer/> */}
-{/* </Routes> */}
+</Routes>
 </>
   );
 }
