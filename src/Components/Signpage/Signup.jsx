@@ -82,8 +82,13 @@ export default function Signup() {
               <label className="labels" htmlFor="">
                 Class
               </label>
-              <input className="signup-input " type="text" placeholder=" " />
-
+              <select className="signup-select " style={{width:"25rem",borderRadius:"1rem",padding:"0.2rem 2rem 0.2rem 1rem"}} type="text" placeholder=" ">
+                <option value="">5th</option>
+                <option value="">6th</option>
+                <option value="">7th</option>
+                <option value="">8th</option>
+                <option value="">9th</option>
+              </select>
               <label className="labels" htmlFor="">
                 Username
               </label>
