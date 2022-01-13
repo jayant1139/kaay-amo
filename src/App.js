@@ -12,10 +12,12 @@ import Signup from './Components/Signpage/Signup';
 import TermsCondition from './Components/Signpage/TermsCondition';
 import Mobileverification from './Components/Verify/Mobileverification';
 import Emailverification from './Components/Verify/Emailverification';
+import Phonewithcode from './Components/Inputwithcode/Phonewithcode';
 function App() {
   return (
 <>
-<Routes>
+<Phonewithcode/>
+{/* <Routes>
   <Route path='/kaay-amo' index element={<Home/>}/>
   <Route path='/Signin'  element={<Signin/>}/>
   <Route path='/Signup'  element={<Signup/>}/>
@@ -25,14 +27,14 @@ function App() {
   <Route path='/Signin/Emailsent' element={<Emailsent/>}/>
   <Route path='/Verify/Mobileverification' element={<Mobileverification/>}/>
   <Route path='/Verify/Emailverification' element={<Emailverification/>}/>
-
+ */}
 
 {/* <Home/> */}
 {/* <Signin/> */}
 {/* <Signup/> */}
 {/* <TermsCondition/> */}
 {/* <Footer/> */}
-</Routes>
+{/* </Routes> */}
 </>
   );
 }

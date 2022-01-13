@@ -363,7 +363,40 @@ color: rgba(255, 255, 255, 0.952);
   background-color: #f8b944c2;
 }
 
-
+/* Phone with code css  */
+.code-sm{
+  width: 4rem;
+  border-radius: 0.8rem;
+  border:0.1rem solid grey;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+/* border: none; */
+}
+.code-sm option{
+  font-weight: 600;
+  background-color: #f8b944a4;
+  
+}
+.code-sm option:hover {
+  background-color: #F8BA44 !important;
+  /* box-shadow: 0 0 10px 100px #F8BA44 inset; */
+  /* color: #E49B31; */
+  /* border-radius: 0.7rem; */
+}
+.code-sm:focus{
+  outline: none;
+}
+.code-sm *{
+  /* background-color: indianred; */
+}
+.leftbordernone{
+  border-radius: 0.8rem;
+  border:0.1rem solid grey;
+  border-left: none;
+  border-bottom-left-radius: 0;
+  border-top-left-radius: 0;
+}
 
 @media screen and (max-width:1024px) {
   html{
