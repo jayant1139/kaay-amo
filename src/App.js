@@ -18,7 +18,7 @@ function App() {
 <>
 {/* <Phonewithcode/> */}
 <Routes>
-  <Route path='/kaay-amo' index element={<Home/>}/>
+  <Route path='/' index element={<Home/>}/>
   <Route path='/Signin'  element={<Signin/>}/>
   <Route path='/Signup'  element={<Signup/>}/>
   <Route path='/Signin/Terms&Conditions' element={<TermsCondition/>}/>

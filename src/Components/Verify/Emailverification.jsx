@@ -5,7 +5,7 @@ export default function Emailverification() {
     const navigate=useNavigate();
     const homeredirect= e =>{
       e.preventDefault();
-      navigate("/kaay-amo");
+      navigate("/");
     }
     const arrowleftstyle = {
         fontSize: "1.5rem",
