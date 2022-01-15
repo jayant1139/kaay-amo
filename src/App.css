@@ -255,11 +255,11 @@ color: #fff;
     padding: 0.1rem !important;
   }
   .eyepassbg{
-    /* background:url("../src/Images/eye_pass.svg");
+    background:url("../src/Images/eye_pass.svg");
     background-size: 1.2rem;
     background-repeat:no-repeat;
     background-position: center;
-    background-position-x:95% ; */
+    background-position-x:95% ;
   }
  
   .sign-right{
