@@ -255,7 +255,7 @@ color: #fff;
     padding: 0.1rem !important;
   }
   .eyepassbg{
-    background:url("../src/Images/eye_pass.svg");
+    background:url("../src/Imagesrc/eye_pass.svg");
     background-size: 1.2rem;
     background-repeat:no-repeat;
     background-position: center;
@@ -298,7 +298,7 @@ color: #fff;
   /* background-color: #a12323 !important; */
 }
  input[type="checkbox"]:checked{
- background: url("../src/Images/check-tick.svg");
+ background: url("../src/Imagesrc/check-tick.svg");
  background-repeat: no-repeat;
  background-position: center;
  background-size: 0.9rem;
@@ -312,14 +312,14 @@ color: #fff;
   .email-sign{
     /* font-size: 1.2rem; */
     padding-left: 1.2rem;
-    background: url("../src/Images/carbon_email.svg") no-repeat 1rem;
+    background: url("../src/Imagesrc/carbon_email.svg") no-repeat 1rem;
     background-size: 1.4rem;
     
   }
   .password-sign{
     
     padding-left: 1.2rem;
-    background: url("../src/Images/key_pass.svg") no-repeat 1rem;
+    background: url("../src/Imagesrc/key_pass.svg") no-repeat 1rem;
     background-size: 1.3rem;
   }
 .login-btn{

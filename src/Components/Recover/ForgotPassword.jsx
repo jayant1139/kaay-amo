@@ -19,7 +19,7 @@ export default function ForgotPassword() {
         <div className="d-flex justify-content-start">
           <div className="sign">
             <img
-              src={require("../../Images/sign_in_up_left.svg").default}
+              src="/Images/sign_in_up_left.svg"
               alt=""
             />
           </div>

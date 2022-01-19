@@ -27,7 +27,7 @@ export default function Signin() {
         <div className="d-flex ">
           <div className="sign">
             <img
-              src={require("../../Images/sign_in_up_left.svg").default}
+              src="/Images/sign_in_up_left.svg"
               alt=""
             />
           </div>
@@ -77,7 +77,7 @@ export default function Signin() {
               <button className="signup-btn my-2 login-btn">Login</button>
             </div>
           </div>
-          <div className="chatbox-icon"><img src={require("../../Images/chatbox.svg").default} alt="" srcset="" /></div>
+          <div className="chatbox-icon"><img src="/Images/chatbox.svg" alt="" srcset="" /></div>
          
         </div>
       </div>
