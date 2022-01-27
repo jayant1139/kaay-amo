@@ -37,7 +37,7 @@ export default function ForgotPassword() {
               <input
                 className="sign-input m-0 "
                 type="mail"
-                placeholder="xyz123@gmail.com"
+                placeholder=" "
              required />
                <button className="signup-btn my-5 login-btn" onClick={ResetPass}>Reset Password</button>
               </form>

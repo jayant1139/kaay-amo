@@ -438,6 +438,12 @@ color: rgba(255, 255, 255, 0.952);
 .signup-select:focus{
   outline: none;
 }
+
+@media screen and (min-width:1920px) {
+  html{
+    font-size:150%;
+  }
+}
 @media screen and (max-width:1024px) {
   html{
     font-size:85%;

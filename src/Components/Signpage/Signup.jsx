@@ -133,7 +133,7 @@ export default function Signup() {
                 </div>
               </a>
               <button onClick={otpverify} className="signup-btn my-2 login-btn">
-                Login
+                Signup
               </button>
             </div>
           </div>
