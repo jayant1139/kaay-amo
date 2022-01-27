@@ -24,6 +24,7 @@ export default function Navbar() {
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
+   
     <div className="collapse navbar-collapse" id="navbarSupportedContent">
       <ul className="navbar-nav m-auto mb-2 mb-lg-0">
         
@@ -100,11 +101,16 @@ export default function Navbar() {
         </li>
       
       </ul>
+      
       <form className="d-flex">
         <button onClick={onSignin} className="signin-btn mx-1 ">Sign In</button>
         <button onClick={onSignup} className="signup-btn mx-2" type="submit">Sign Up</button>
       </form>
+   
+   
     </div>
+   
+    
   </div>
 </nav>   
         </>
